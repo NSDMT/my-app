@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #282c34;
+  cursor: pointer;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
